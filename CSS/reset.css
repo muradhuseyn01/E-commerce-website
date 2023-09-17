@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black; background:none;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+@font-face{
+    font-family: Integral-CF;
+    src: url(../Assets/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: Satoshi;
+    src: url(../Assets/fonts/Satoshi-Variable/Satoshi-Variable.ttf);
+    font-weight: 500;
+}
