@@ -104,7 +104,7 @@
                 border-top-right-radius: 30px;
                 border-bottom-right-radius: 30px;
                 background-color: var(--src-color);
-                border: none;
+                border: none; outline: none;
             }
 
         }
@@ -304,7 +304,7 @@
         }
 
         /*Hover----------------------------*/
-        .clothes__cards:hover img {
+        .clothes__cards:hover img:nth-child(1) {
             transform: rotateY(180deg);
         }
 
@@ -523,6 +523,7 @@
                 border-bottom-right-radius: 30px;
                 background-color: var(--text-color);
                 border: none;
+                outline: none;
             }
         }
 
@@ -650,7 +651,7 @@
     }
 }
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:992px) {
 
     .navbar {
         .navbar__up {
@@ -766,7 +767,7 @@
 
         .clothes__flex-cards {
             flex-direction: column;
-            justify-content: center;
+            justify-content: center;  
 
             .clothes__cards {
                 width: 50%;
